@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrashHost - Hospedagem SA-MP</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0f0f0f; color: #fff; margin: 0; }
+    header { background: #1f1f1f; padding: 20px; text-align: center; }
+    h1 { color: #00d0ff; margin-top: 10px; }
+    .slogan { font-size: 1.2em; color: #ccc; }
+    .planos { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .plano { background: #1c1c1c; border: 1px solid #333; border-radius: 10px; margin: 10px; padding: 20px; width: 250px; text-align: center; }
+    .plano h2 { color: #00d0ff; }
+    .preco { font-size: 1.5em; color: #0f0; margin: 10px 0; }
+    .botao { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #00d0ff; color: #000; border-radius: 5px; text-decoration: none; }
+    footer { text-align: center; padding: 20px; background: #1f1f1f; font-size: 0.9em; color: #888; }
+    .logo { max-width: 150px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="CrashHost Logo" class="logo">
+    <h1>CrashHost</h1>
+    <p class="slogan">Sua conexão com o SA-MP começa aqui!</p>
+  </header>
+
+  <section class="planos">
+    <div class="plano">
+      <h2>Starter</h2>
+      <p>50 slots<br>FTP: Sim<br>MySQL: Não</p>
+      <p class="preco">R$10/mês</p>
+      <a class="botao" href="#">Contratar</a>
+    </div>
+    <div class="plano">
+      <h2>Avançado</h2>
+      <p>100 slots<br>FTP: Sim<br>MySQL: Sim</p>
+      <p class="preco">R$20/mês</p>
+      <a class="botao" href="#">Contratar</a>
+    </div>
+    <div class="plano">
+      <h2>Pro</h2>
+      <p>150 slots<br>FTP: Sim<br>MySQL: Sim</p>
+      <p class="preco">R$30/mês</p>
+      <a class="botao" href="#">Contratar</a>
+    </div>
+    <div class="plano">
+      <h2>VIP</h2>
+      <p>Até 300 slots<br>Personalizado</p>
+      <p class="preco">Sob consulta</p>
+      <a class="botao" href="#">Fale conosco</a>
+    </div>
+  </section>
+
+  <footer>
+    Contato via <a style="color: #00d0ff;" href="#">Discord</a> | <a style="color: #00d0ff;" href="#">WhatsApp</a> | Email: suporte@crashhost.com
+    <br>&copy; 2025 CrashHost
+  </footer>
+</body>
+</html>
